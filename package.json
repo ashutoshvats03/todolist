@@ -9,6 +9,12 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "scripts": {
+  "test": "react-scripts test",
+  "build": "react-scripts build",
+  "lint": "eslint ."
+},
+
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
