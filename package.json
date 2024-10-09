@@ -10,9 +10,10 @@
     "preview": "vite preview"
   },
   "scripts": {
-  "test": "react-scripts test",
+  "start": "react-scripts start",
   "build": "react-scripts build",
-  "lint": "eslint ."
+  "test": "react-scripts test --watchAll=false",
+  "eject": "react-scripts eject"
 },
 
   "dependencies": {
